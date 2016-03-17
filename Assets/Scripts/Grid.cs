@@ -16,8 +16,8 @@ public class Grid
 	public Grid()
 	{
 		id = Random.Range(_minId, _maxId);
-		id = test;
-		test++;
+		//id = test;
+		//test++;
 
 		if (_names != null && _names.Length > 0)
 		{
@@ -38,5 +38,5 @@ public class Grid
 		}
 	}
 
-	static int test = 0;
+	//static int test = 0;
 }

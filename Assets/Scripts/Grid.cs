@@ -6,7 +6,7 @@ public class Grid
 	string[] 					_names = {"aaa", "bbb", "ccc", "ddd", "eee", "fff", "ggg", "hhh", "iii", "jjj"};
 	string[] 					_colors = {"red", "green", "blue"};
 	const string				_error = "empty";
-	const int					_minId = 0;
+	const int					_minId = 1;
 	const int					_maxId = 100;
 
 	public readonly int 		id;
@@ -15,7 +15,7 @@ public class Grid
 
 	public Grid()
 	{
-		id = Random.Range(_minId, _maxId);
+		id = Random.Range(_minId, _maxId + 1);
 		//id = test;
 		//test++;
 
